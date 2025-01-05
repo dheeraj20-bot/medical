@@ -39,7 +39,7 @@ const Features = () => {
             }}
             className="text-gradient text-sm font-bold leading-6 md:text-base"
           >
-            Who we are
+            Wie Wij Zijn
           </motion.p>
           {/* heading  */}
           <motion.h3
@@ -80,21 +80,21 @@ const Features = () => {
             }}
             className="mt-5 w-full text-[20px] text-base font-medium leading-6 text-[#445469] md:w-[655px] md:leading-[30px]"
           >
-            we understand the importance of clear vision and comprehensive eye
-            care. Our dedicated team of experienced optometrists and
-            opthalmologists is committed to providing top-notch eye care
-            services tailored to your individual needs.
+            Altijd maar zoeken naar die ene perfecte vacature? Wij maken het
+            makkelijk voor je! Geen eindeloze websites meer, geen recruiters die
+            je niet begrijpen, en nooit meer gedoe met het oppoetsen van je CV
+            of schrijven van motivatiebrieven.
           </motion.p>
         </div>
         {/* learn more  */}
         <button
           className="flex h-[56px] w-[180px] items-center group relative
-         overflow-hidden justify-center gap-3 rounded-full border-2 border-[#131316] text-base font-medium leading-[28px]
+         overflow-hidden justify-center gap-3 rounded-full border-2 border-blue-900 text-base font-medium leading-[28px]
           text-[#445568]  hover:text-white  shadow-[0_1px_2px_0_rgba(14,24,41,0.05)] md:h-[60px] md:w-[202px] "
         >
           <div
             className=" absolute  -left-1 bottom-0 right-0 -z-10 !mx-auto h-[0px] w-[208px]
-             rounded-full bg-black transition-all duration-300 group-hover:h-[59px]"
+             rounded-full bg-blue-900 transition-all duration-300 group-hover:h-[59px]"
           />
           <span>Book Now</span>
           <img src={arrow} alt="" className="group-hover:invert" />
@@ -212,7 +212,7 @@ const Features = () => {
           <img
             src={banner}
             alt="Serve"
-            className="-mt-28  relative w-[65%] lg:w-[45%] left-0 lg:left-36"
+            className="-mt-28  relative w-[65%] lg:w-[45%] left-0 lg:left-[11.75rem]"
           />
         </motion.div>
 

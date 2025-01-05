@@ -1,7 +1,7 @@
 import arrow from "../assets/arrow.svg";
 import herobg from "../assets/hero-bg.webp";
 import heroImg from "../assets/hero_img.webp";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -19,73 +19,72 @@ const Hero = () => {
       3xl:max-w-[1200px]"
       >
         <motion.h1
-         initial={{opacity:0,y:50}}
+          initial={{ opacity: 0, y: 50 }}
           whileInView={{
-            opacity:0.8704,
-            y:0,
-            transition:{
-              duration:0.8,
-              ease:[0.44,0,0,0.1]
-            }
+            opacity: 0.8704,
+            y: 0,
+            transition: {
+              duration: 0.8,
+              ease: [0.44, 0, 0, 0.1],
+            },
           }}
           viewport={{
-            amount:"some",
-            once:true,
+            amount: "some",
+            once: true,
           }}
-          className="h-auto w-full  text-center text-[60px] font-semibold
+          className="h-auto w-full text-center text-[50px] font-semibold
          leading-[60px] tracking-[-3px]  md:h-[160px]
-         md:w-[749px] md:text-[80px] md:leading-[80px] lg:text-left"
+         md:w-[749px] md:text-[70px] md:leading-[80px] lg:text-left"
         >
-          Your partner in Health & Wellness
+          Eén klik dichter bij jouw nieuwe baan of collega
         </motion.h1>
         <motion.p
-         initial={{opacity:0,y:50}}
-         whileInView={{
-           opacity:1,
-           y:0,
-           transition:{
-             duration:0.8,
-             ease:[0.44,0,0,0.1]
-           }
-         }}
-         viewport={{
-           amount:"some",
-           once:true,
-         }}
-
-          className="mt-[25.5px] w-full text-center text-base font-medium leading-6
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              duration: 0.8,
+              ease: [0.44, 0, 0, 0.1],
+            },
+          }}
+          viewport={{
+            amount: "some",
+            once: true,
+          }}
+          className=" mt-6 w-full text-center text-base font-medium leading-6
          md:w-[523px] md:text-[20px] md:leading-[30px] lg:text-left"
         >
-          We are committed to providing you with the best medical and healthcare
-          services to help you live healthier and happier.
+         Maak verbinding met toonaangevende zorginstellingen en vind de perfecte werkplek. 
+         Of je nu verpleegkundige, arts of specialist bent, een nieuwe uitdaging wacht op je.
         </motion.p>
         <motion.div
-         initial={{opacity:0,y:50}}
-         whileInView={{
-           opacity:1,
-           y:0,
-           transition:{
-             duration:0.8,
-             ease:[0.44,0,0,0.1]
-           }
-         }}
-         viewport={{
-           amount:"some",
-           once:true,
-         }}
-          className="mt-[55.5px] flex w-full flex-col items-center justify-center 
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              duration: 0.8,
+              ease: [0.44, 0, 0, 0.1],
+            },
+          }}
+          viewport={{
+            amount: "some",
+            once: true,
+          }}
+          className="mt-[40.5px] flex w-full flex-col items-center justify-center 
         gap-6 md:flex-row lg:justify-start"
         >
           <button
             className="group relative h-[56px] w-[180px] overflow-hidden rounded-full border-2 
-           border-[#131316] text-base font-medium  leading-[28px] text-[#445568] 
+           border-blue-900 text-base font-medium  leading-[28px] text-[#445568] 
            shadow-[0_1px_2px_rgba(14,24,41,0.05)] md:h-[60px] md:w-[202px] md:text-[18px]"
           >
             <div
               className=" absolute  -left-1 bottom-0 right-0 -z-10 !mx-auto h-[0px] w-[208px]
-             rounded-full bg-black transition-all duration-300 group-hover:h-[59px]"
+             rounded-full bg-blue-900 transition-all duration-300 group-hover:h-[59px]"
             />
-            <span className=" group-hover:text-white">How we work</span>
+            <span className=" group-hover:text-white">Maak een profiel aan</span>
           </button>
           <button
             className="flex h-[56px] w-[180px] items-center justify-center gap-3 rounded-full
@@ -97,31 +96,29 @@ const Hero = () => {
           </button>
         </motion.div>
       </div>
-         
+
       {/* Hero Right Content  */}
       {/* Hero banner  */}
-       <motion.img 
-        initial={{opacity:0,y:50}}
+      <motion.img
+        initial={{ opacity: 0, y: 50 }}
         whileInView={{
-          opacity:1,
-          y:0,
-          transition:{
-            duration:0.8,
-            ease:[0.44,0,0,0.1]
-          }
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 0.8,
+            ease: [0.44, 0, 0, 0.1],
+          },
         }}
         viewport={{
-          amount:"some",
-          once:true,
+          amount: "some",
+          once: true,
         }}
-       
-       src={heroImg} alt="hero" 
+        src={heroImg}
+        alt="hero"
         className=" absolute top-[140px] hidden lg:block right-0 mx-auto w-[900px] 
          3xl:right-[150px]"
-       />
+      />
       {/* Hero banner  */}
-       
-
     </section>
   );
 };
